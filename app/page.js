@@ -16,7 +16,7 @@ async function fetchPokemon(limit = 20) {
 }
 
 export default async function Page() {
-  const data = await fetchPokemon(12);
+  const data = await fetchPokemon(1025);
 
   return (
     <main className="max-w-7xl mx-auto">
